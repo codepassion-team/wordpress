@@ -1,0 +1,624 @@
+/*
+Theme Name: Medical Landing Page
+Theme URI: https://www.vwthemes.com/themes/free-medical-landing-page-wordpress-theme/
+Author: VWthemes
+Author URI: https://www.vwthemes.com
+Description: Medical Landing Page is a user-friendly WordPress theme tailored for medical professionals and healthcare organizations. With a clean and modern design, this theme provides a streamlined and accessible online platform to showcase essential information. Whether you own Healthcare centre, Medical Practices and Clinics, Hospitals and Medical Centers, Health and Wellness Centers, Pharmacies and Medical Supplies. This theme is compatible with contact form7 plugin and Ibtana. Pharmaceutical Companies, Veterinary Services, Dental Services, Rehabilitation Centers, Nutritionist and Dieticians and Maternity Service centers can also use this theme for their website. It is versatile theme that excels in the medical world. The layout is designed for simplicity and ease of navigation, ensuring that visitors can quickly find the information they need. The color scheme is calming and professional, creating a trustworthy and reassuring online presence for medical services. The responsive design ensures that the landing page looks and functions seamlessly on various devices, accommodating patients who access the website from desktops, tablets, or smartphones. Key features of this theme include prominent contact details, appointment scheduling options, and sections to highlight medical services offered. The theme prioritizes user experience, making it straightforward for patients to learn about the healthcare facility, the medical professionals involved, and the range of services available. The Medical Landing Page WordPress Theme is a valuable tool for healthcare providers seeking a polished and effective online presence. It serves as a welcoming virtual front door, providing patients with essential information and establishing trust in the medical services offered. Demo: https://www.vwthemes.net/vw-medical-landing-page/
+Template: ecommerce-landing-page 
+Requires at least: 5.0
+Tested up to: 6.5
+Requires PHP: 7.2
+Version: 0.1.4
+License: GPLv3.0 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: medical-landing-page
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, flexible-header, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, threaded-comments, post-formats, e-commerce, blog, portfolio
+*/
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Figtree', sans-serif;
+}
+body {
+	font-size: 15px;
+}
+a, a:hover{
+	color: #3FBAD9;
+}
+.middle-align {
+	margin: 40px auto 0 !important;
+}
+.top-bar {
+	border: 0;
+	background: #000000;
+	padding: 6px;
+}
+.topbar-text a, .topbar-text span {
+	color: #fff;
+}
+.social-icons {
+	padding: 10px 0;
+}
+.social-icons .widget, .social-icons span, .top-bar .custom-social-icons {
+	display: inline-block;
+	color: #fff;
+}
+.top-bar .custom-social-icons i {
+	padding: 0 0 0 10px;
+	border: 0;
+	font-size: 14px;
+	color: #fff;
+}
+#header {
+	background: transparent;
+}
+.scrollup i {
+	background: #000000;
+}
+.bradcrumbs{
+  padding:30px 0;
+}
+.bradcrumbs a, .post-categories li a{
+  background: #000000  !important;
+  color: #fff;
+  padding:8px 15px;
+  margin-right:5px;
+  font-weight: 600;
+}
+.bradcrumbs a:hover, .post-categories li a:hover{
+  background: #000000 !important;
+}
+.bradcrumbs span{
+  background: #3FBAD9  !important;
+  color: #fff;
+  padding:8px 15px;
+  font-weight: 600;
+}
+.page-content{
+  padding: 70px !important;
+}
+nav.navigation.posts-navigation .nav-previous a, nav.navigation.posts-navigation .nav-next a{
+	background: #3FBAD9 ;
+}
+nav.navigation.posts-navigation .nav-previous a:hover, nav.navigation.posts-navigation .nav-next a:hover{
+	background: #000000;
+	color: #fff !important;
+}
+#sidebar h3 a.rsswidget{
+	color: #fff !important;
+}
+/*----------------- SEARCH POPUP ----------------*/
+
+.topbar-btn a, .more-btn a {
+	font-size: 15px;
+	background: #3FBAD9 ;
+	display: inline-block;
+}
+.topbar-btn a:hover, .topbar-btn a:hover, .more-btn a:hover, input[type="submit"]:hover, #comments input[type="submit"]:hover, #comments a.comment-reply-link:hover, #slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover, .pagination .current, .pagination a:hover, #footer .tagcloud a:hover, #sidebar .tagcloud a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .widget_product_search button:hover, nav.woocommerce-MyAccount-navigation ul li:hover {
+	background: #000000 !important;
+	color: #fff !important;
+}
+.menu-section, .closebtn i{
+	background: #3FBAD9;
+}
+#sidebar ul li::before{
+	background-color: #3FBAD9 !important;
+}
+.page-template-custom-home-page .home-page-header{
+	border-bottom: none !important;
+}
+.home-page-header{
+	border-bottom: 2px solid #3FBAD9;
+}
+.main-navigation a:hover{
+	color: #fff;
+}
+.main-navigation ul ul li a:hover, .sticky .post-main-box h2:before, .main-navigation ul ul a:focus{
+  color: #3FBAD9;
+}
+.main-navigation ul ul{
+  border-top: 2px solid #3FBAD9;
+  border-bottom: 2px solid #3FBAD9;
+}
+.post-nav-links a.post-page-numbers:hover{
+	background-color: #3FBAD9 !important;
+	color: #fff;
+}
+.menu-section .closebtn i{
+	font-size: 20px;
+}
+/* Header */
+.topbar .cart-no{
+	display: none;
+}
+.myaccount-icon i{
+	background: #3FBAD9;
+}
+/* banner section */
+#banner{
+	background-color: #F0F5F6;
+}
+.banner-main-text {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.banner-main-text .video-btn{
+	margin-top: 20px !important;
+}
+#banner h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+.read-more a{
+	background: #3FBAD9;
+	border-radius: 6px;
+	text-transform: capitalize;
+}
+.read-more a:hover{
+	color: #fff;
+}
+.banner-img img{
+	border-radius: 50%;
+	width: 420px;
+  height: 420px;
+  object-fit: cover;
+}
+.banner-img{
+	position: relative;
+}
+.banner-img .phone, .banner-img .review, .banner-img .about{
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 10px #00000029;
+	border-radius: 6px;
+}
+.banner-img .phone i, .banner-img .about i, .rating i, .expert-doctor i, .health-solution .team i, .health-solution .hospital i, .health-solution .environment i{
+	background: #3FBAD9;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.banner-img .phone{
+	position: absolute;
+	top: 30%;
+	left: 0;
+	padding: 10px;
+}
+.banner-img .phone .phone-text{
+	margin-bottom: 4px;
+}
+.banner-img p, .rating p, .expert-doctor p{
+	margin-bottom: 0;
+}
+.banner-img .review{
+	position: absolute;
+	bottom: 10%;
+	padding: 12px 20px;
+}
+.banner-img .review .review-text:after{
+	background: url(assets/images/view1.png) no-repeat;
+  content: "";
+  padding: 16px 75px;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+.banner-img .about{
+	position: absolute;
+	bottom: 10%;
+	right: 0;
+	padding: 15px;
+	width: 135px;
+	height: auto;
+}
+.banner-img .review img{
+	width: 100%;
+  height: 30px;
+  object-fit: cover;
+}
+.banner-img .phone p{
+	text-align: left;
+	padding-left: 15px;
+}
+.banner-img .phone .phone-text, .banner-img .about .about-text{
+	color: #000000;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	line-height: 1.3;
+}
+.banner-img .phone .phone-no,.banner-img .review .review-text, .banner-img .about .about-title{
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: capitalize;
+}
+.banner-img .about .about-title{
+	margin: 6px 0;
+}
+.rating .rating-count, .expert-doctor .expert-doctor-count{
+	font-size: 20px;
+	font-weight: 700;
+	color: #000000;
+}
+.rating .rating-text, .expert-doctor .expert-doctor-text{
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+	text-transform: capitalize;
+}
+.about-section{
+	background-color: #ffffff;
+  width: 47%;
+  position: absolute;
+  padding: 2% 1% 2% 15%;
+  clip-path: polygon(0 0, 95% 0%, 100% 100%, 0% 100%);
+  bottom: 0;
+}
+.video-btn a{
+	border: 7px solid #3fbad938;
+	border-radius: 50%;
+}
+.video-btn i{
+	color: #FFFFFF;
+	background-color: #3FBAD9;
+	padding: 10px;
+	border-radius: 50%;
+}
+.video-btn .video-text{
+	font-size: 15px;
+	font-weight: 600;
+	color: #000000;
+	text-transform: capitalize;
+}
+.video-btn .overlay {
+  display: none;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
+.video-btn .popup {
+  background: #fff;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+.video-btn .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.woocommerce span.onsale,.woocommerce a.added_to_cart.wc-forward,#sidebar ul li::before,.wp-block-woocommerce-empty-cart-block .wc-block-grid__product-onsale{
+  background:#3FBAD9  !important ;
+}
+.wp-block-latest-comments__comment-meta a,.product_meta a,.wc-block-components-totals-coupon a,
+.woocommerce-MyAccount-content a{
+  color:#3FBAD9  !important ;
+}
+.wp-block-woocommerce-empty-cart-block .wc-block-grid__product-onsale{
+  border-color: #3FBAD9  !important ;
+}
+/* Latest News & Blog Section */
+#latest-post-section h4.heading-text{
+	font-size: 30px;
+}
+.events-box:hover span.event-date, .events-box:hover span.event-location li a{
+	background: #3FBAD9 !important;
+}
+.events-box:hover h3 a{
+	color: #3FBAD9 !important;
+}
+#latest-post-section .events-box img{
+	border-radius: 10px;
+}
+/* Health Solution Section */
+.health-solution .health-img-sec{
+	position: relative;
+}
+.health-solution .health-img-sec .health-image2 img{
+	position: absolute;
+  top: 18%;
+  right: 8%;
+  border: 10px solid #ffffff;
+}
+.health-solution .health-img-sec .health-image2 img{
+	border-radius: 22px;
+	height: 390px;
+  width: 320px;
+  object-fit: cover;
+}
+.health-solution .health-img-sec .health-image1 img{
+	border-radius: 22px;
+	height: 390px;
+	width: 380px;
+	object-fit: cover;
+}
+.health-solution .health-text-sec h3{
+	color: #000000;
+	font-size: 34px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.health-solution .health-text-sec .health-para{
+	color: #000000;
+	font-size: 15px;
+	font-weight: 400px;
+}
+.health-solution .health-text-sec	.health-para1{
+	color: #000000;
+	font-size: 13px;
+	font-weight: 400px;
+	border-left: 3px solid #3FBAD9;
+	padding-left: 20px;
+}
+.health-solution .health-text-sec .team-title, .health-solution .health-text-sec .hospital-title, .health-solution .health-text-sec .environment-title{
+	color: #000000;
+	font-size: 14px;
+	font-weight: 800;
+	text-transform: capitalize;
+}
+.health-solution .health-text-sec .team-text, .health-solution .health-text-sec .hospital-text, .health-solution .health-text-sec .environment-text{
+	color: #000000;
+	font-size: 12px;
+}
+.health-solution .health-text-sec .info-sec{
+	box-shadow: 0px 0px 12px #00000029;
+	background-color: #FFFFFF;
+	padding: 18px;
+	border-radius: 6px;
+	position: relative;
+  right: 25%;
+  width: 128%;
+}
+.more-btn a, #comments input[type="submit"], #comments a.comment-reply-link, input[type="submit"], .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, nav.woocommerce-MyAccount-navigation ul li, .pro-button a,.pagination span, .pagination a {
+	background: #3FBAD9  !important;
+	color: #fff !important;
+}
+.service-btn a {
+	top: -45px;
+}
+#sidebar h3, #sidebar .wp-block-search .wp-block-search__label,#footer-2,.inner-box:hover{
+	background: #3FBAD9;
+}
+.post-main-box:hover h2 a, .post-main-box:hover .post-info a, .single-post .post-info:hover a,#footer .textwidget a, #footer li a:hover, .post-main-box:hover h3 a, #sidebar ul li a:hover, .post-navigation a:hover .post-title, .post-navigation a:focus .post-title, .post-navigation a:hover, .post-navigation a:focus,.logo h1 a:hover, .logo p.site-title a:hover{
+	color: #000000 !important;
+}
+#header{
+	background: transparent !important;
+}
+#preloader{
+	background-color: #3FBAD9;
+}
+/*pagination*/
+.pagination span, .pagination a, .post-nav-links span, .post-nav-links a{
+	background: #000000 !important;
+}
+.wp-block-button.is-style-outline a{ 
+	background: transparent !important;
+	border: 1px solid #000;
+}
+.post-navigation span.meta-nav:hover{
+	color: #000;
+}
+.about-img img {
+  box-shadow: -20px 20px 0 0px #94c2ec;
+}
+#sidebar .more-button a{
+	background: #3FBAD9  !important;
+  color: #fff !important;
+}
+#sidebar .more-button a:hover{
+  background: #000000 !important;
+  color: #fff !important;
+}
+#sidebar label.wp-block-search__label, #sidebar .wp-block-heading, #footer .custom-about-us a.custom_read_more{
+  background: #3FBAD9;
+}
+#footer .wp-block-search .wp-block-search__button, #sidebar .wp-block-search .wp-block-search__button{
+  background: #000000;
+}
+#footer .tagcloud a:hover{
+	border-color: #3FBAD9;
+}
+#footer .widget_tag_cloud a.tag-cloud-link:hover{
+	background-color: #3FBAD9;
+}
+.post-main-box:hover h2 a, .post-main-box:hover .post-info a, .single-post .post-info:hover a, .grid-post-main-box:hover h2 a, .grid-post-main-box:hover .post-info a{
+	color: #000000;
+}
+.copyright a:hover{
+	color: #fff;
+}
+.copyright .widget{
+	margin-bottom: 0 !important;
+}
+.wp-block-woocommerce-cart .wc-block-cart__submit-button, .wc-block-components-checkout-place-order-button, .wc-block-components-totals-coupon__button{
+  background-color: #3FBAD9  !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 10px;
+  border: none !important;
+  padding: 10px;
+}
+.wp-block-woocommerce-cart .wc-block-cart__submit-button:hover, .wc-block-components-checkout-place-order-button:hover{
+  background: #000000 !important;
+  color: #fff !important;
+}
+.wc-block-components-order-summary-item__quantity{
+	background: #3FBAD9 !important;
+}
+@media screen and (max-width: 1000px){
+	.main-navigation a:hover{
+		color: #3FBAD9 !important;
+	}
+	.toggle-nav i{
+		background: #3FBAD9;
+	}
+	.serach_outer i{
+		background: transparent;
+	}
+	p.site-title, .logo h1 {
+    font-size: 25px;
+	}
+}
+
+@media screen and (max-width:720px) {
+	.menu-section{
+		background: none;
+	}
+	.banner-main-text .read-more, .banner-main-text .video-btn{
+		margin-top: 10px !important;
+	}
+  .about-section{
+  	position: relative;
+  	width: 100%;
+  	padding: 10px;
+  }
+  .banner-main-text .video-btn{
+  	justify-content: center;
+  }
+  .banner-img {
+  	margin: 15px 0;
+  }
+  .banner-img .phone{
+  	left: 4%;
+    right: 60%;
+  }
+  .banner-img .phone p{
+  	padding-left: 0;
+  }
+  .banner-img .review{
+  	padding: 6px;
+  }
+  .banner-img .phone .phone-no, .banner-img .review .review-text, .banner-img .about .about-title{
+  	font-size: 13px;
+  }
+  .banner-img .about{
+  	padding: 6px;
+    width: 120px;
+    right: 3%;
+  }
+  .banner-img img{
+  	width: 300px;
+    height: 300px;
+  }
+  .rating .rating-count, .rating .rating-text, .expert-doctor .expert-doctor-count, .expert-doctor .expert-doctor-text{
+  	text-align: left !important;
+  }
+  .banner-img .phone, .banner-img .review, .banner-img .about{
+  	display: none;
+  }
+  .about-section{
+  	clip-path: none;
+  }
+  .rating i, .expert-doctor i{
+  	padding: 8px;
+  }
+  .rating .rating-count, .expert-doctor .expert-doctor-count{
+  	font-size: 18px;
+  }
+  .rating .rating-text, .expert-doctor .expert-doctor-text{
+  	font-size: 12px;
+  }
+  .about-section .rating-count, .about-section .rating-text, .about-section .expert-doctor-count, .about-section .expert-doctor-text{
+		margin-left: 12px;
+	}
+	.health-solution .health-img-sec .health-image1 img{
+		height: 260px;
+    width: 265px;
+	}
+	.health-solution .health-img-sec .health-image2 img{
+		right: 0;
+		width: 210px;
+		height: 260px;
+	}
+	.health-solution .health-text-sec h3{
+		margin-top: 20px;
+	}
+	.health-solution .health-text-sec .info-sec{
+		right: 0;
+    width: auto;
+	}
+	.health-solution .health-text-sec .info-sec .team, .health-solution .health-text-sec .info-sec .hospital{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.banner-img .phone i, .banner-img .about i{
+		font-size: 12px;
+		padding: 8px;
+	}
+	.banner-img .phone .phone-no, .banner-img .review .review-text, .banner-img .about .about-title{
+		font-size: 13px;
+	}
+	.banner-img .phone .phone-text, .banner-img .about .about-text{
+		font-size: 10px;
+	}
+	.banner-img .about{
+		padding: 10px;
+    width: 120px;
+	}
+	.banner-img .review{
+		padding: 10px;
+	}
+	.banner-main-text .read-more, .banner-main-text .video-btn{
+		margin-top: 10px !important;
+		margin-bottom: 0 !important;
+	}
+	.about-section{
+		position: relative;
+		width: 100%;
+		padding: 2% 10%;
+		clip-path: none;
+	}
+	.banner-img img{
+		width: 320px;
+    height: 320px;
+	}
+	.health-solution .health-text-sec .info-sec{
+		right: 0;
+    width: auto;
+	}
+	.health-solution .health-text-sec h3{
+		margin-top: 50px;
+	}
+	.health-solution .health-img-sec .health-image1 img{
+		height: 390px;
+    width: 420px;
+	}
+	.health-solution .health-img-sec .health-image2 img{
+		right: 0;
+		width: 360px;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+	.inner_carousel h2{
+		font-size: 42px;
+    line-height: 50px;
+	}
+	.about-section{
+		padding: 2% 0% 2% 4%;
+	}
+	.about-section .rating-count, .about-section .rating-text, .about-section .expert-doctor-count, .about-section .expert-doctor-text{
+		margin-left: 10px;
+	}
+	.banner-img img{
+		width: 370px;
+    height: 370px;
+	}
+	.health-solution .health-img-sec .health-image1 img{
+		width: 350px;
+	}
+}

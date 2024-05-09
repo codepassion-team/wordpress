@@ -1,0 +1,197 @@
+.slider-section .slider-content .content h2,.slider-section .slider-content .content p,.solution-section .solution-section2 .solution-content-sec h3
+{
+    font-family: 'Figtree', sans-serif;
+}
+.slider-section .slider-content .content p{
+    font-size: 15px;
+}
+.slider-section .slider-content2 .rating-count,.slider-section .slider-content2 .rating-text,.slider-section .slider-content2 .expert-doctor-count,
+.slider-section .slider-content2 .expert-doctor-text,.slider-section .img-section .Emergency-col p,.slider-section .img-section .patient-col .review-text,
+.slider-section .img-section .dr-col .about-text,.solution-section .solution-section2 .team-section .team-title,
+.solution-section .solution-section2 .team-section .hospital-title,.solution-section .solution-section2 .team-section .environment-title,
+.solution-section .solution-section2 .team-section .para,.solution-section .solution-section2 h3
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.slider-section .img-section .dr-col .about-title{
+    margin-bottom: 0px;
+    margin-top: 45px;
+}
+.slider-section .img-section .patient-col figure{
+    margin: 0em;
+}
+.slider-section .slider-content2 .rating-count,.slider-section .slider-content2 .expert-doctor-count,
+.slider-section .img-section .Emergency-col .phone-no,.slider-section .img-section .patient-col .review-text,
+.slider-section .img-section .dr-col .about-title{
+    font-weight: 700;
+}
+.slider-section .slider-content .vedio,.slider-section .slider-content2 .per-col1 .rating-text,
+.slider-section .slider-content2 .expert-doctor-text,.solution-section .solution-section2 .solution-content-sec h3{
+    font-weight: 600;
+}
+.slider-section .img-section .Emergency-col .phone-text,.slider-section .img-section .dr-col .about-text{
+    font-weight: 500;
+}
+.solution-section .solution-section2 .team-section .team-title,.solution-section .solution-section2 .team-section .hospital-title,
+.solution-section .solution-section2 .team-section .environment-title{
+     font-weight: 800;
+}
+.slider-section .slider-content .content{
+    position: absolute;
+    left: 15%;
+    right: 20%;
+    margin-top: 0%;
+}
+.slider-section .slider-content .read-more .wp-block-button__link {
+    padding: 6px 20px;
+}
+.slider-section .slider-content .read-more .wp-block-button__link:hover{
+    background-color: #000 !important;
+}
+.slider-section .slider-content .vedio .wp-block-button__link:before,.slider-section .slider-content .vedio .wp-block-button__link:after{
+    transform: translateX(-50%);
+    position: absolute;
+    border-radius: 50%;
+}
+.slider-section.img-section,.slider-section .slider-content .vedio{
+    position: relative;
+}
+.slider-section .slider-content .vedio .wp-block-button__link:before {
+    content: ">";
+    top:8%;
+    left: -5%;  
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    padding: 7px 13px;
+    background: #3FBAD9;
+}
+.slider-section .slider-content .vedio .wp-block-button__link:after{
+    border: 7px solid #3fbad938; 
+    content: "";
+    top:-10%;
+    left: -5%;  
+    padding: 19px 18px;
+}
+.slider-section .slider-content2{
+    background-color: #ffffff;
+    width: 70%;
+    position: absolute;
+    padding: 2% 1% 2% 21%;
+    clip-path: polygon(0 0, 95% 0%, 100% 100%, 0% 100%);
+    bottom: -14%;
+    gap: 2em;
+    left: 0;
+}
+.slider-section .img-section .dr-col p:first-child:before,.slider-section .img-section .Emergency-col p:first-child:before,
+.slider-section .slider-content2 .per-col1 p:first-child:before,.slider-section .slider-content2 .per-col2 p:first-child:before{
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    transform: translateX(-50%);
+    padding: 5px 12px;
+    border-radius: 6px;
+    background: #3FBAD9;
+    position: absolute;
+}
+.slider-section .slider-content2 .per-col1 p:first-child:before{
+    content: "\f0c0";
+    top: 30%;
+    left: -17%;
+}
+.slider-section .slider-content2 .per-col2 p:first-child:before {
+    content: "\f0f0";
+    top: 30%;
+    left: -18%;
+}
+.slider-section .img-section .Emergency-col,.slider-section .img-section .patient-col,.slider-section .img-section .dr-col{
+    position: absolute;
+    padding: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 6px;
+}
+.slider-section .img-section .Emergency-col{
+    left: -7%;
+    margin-top: -50%;
+}
+.slider-section .img-section .patient-col{
+    left: -7%;
+    margin-top: -17%;
+}
+.slider-section .img-section .dr-col{
+    margin-top: -25%;
+    right: 36%;
+    width: 135px;
+}
+.slider-section .img-section .dr-col p:first-child:before{
+    content: "\f0f0";
+    bottom:95%;
+    left: 45%;    
+}
+.slider-section .img-section .Emergency-col p:first-child:before{
+    content: "\f095";
+    top:20%;
+    left: -23%;  
+}
+.slider-section .img-section .Emergency-col p{
+    margin-left: 40px;
+}
+
+/*solution-section*/
+.solution-section {
+    max-width: 1300px;
+}
+.solution-section .img1 img{
+    border-radius: 22px;
+    height: 390px;
+    width: 380px;
+    object-fit: cover;
+}
+.solution-section .img2 img{
+    border-radius: 22px;
+    height: 390px;
+    width: 320px;
+    object-fit: cover;
+}
+.solution-section .img2 img{    
+    position: absolute;
+    margin-top: 25%;
+    right: 27%;
+    border: 10px solid #ffffff;
+}
+.solution-section .solution-section2 .solution-content-sec{
+    position: relative;
+    right: 15%;
+}
+.solution-section .solution-section2 .team-section{
+    box-shadow: 0px 0px 12px #00000029;
+    background-color: #FFFFFF;
+    padding: 18px;
+    border-radius: 6px;
+    position: relative;
+    right: 35%;
+    width: 128%;
+    top: -4%;
+    gap: 1.5em;
+}
+.solution-section .solution-section2 .team-section1 i:before,.solution-section .solution-section2 .team-section2 i:before,
+.solution-section .solution-section2 .team-section3 i:before{
+    background: #3FBAD9;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.solution-section .solution-section2 .health-para1{
+    border-left: 3px solid #3FBAD9;
+    padding-left: 20px;
+}
+.solution-section .solution-section2 .block-library-html__edit{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.solution-section .solution-section2 .team-section textarea{
+    padding: 5px;
+}
